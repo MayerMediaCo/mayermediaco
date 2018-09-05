@@ -5,7 +5,8 @@ slug: the-social-conundrum
 path: the-social-conundrum
 date: 2018-09-04
 cover: /img/facebook.jpg
-tags: Social Media
+tags: 
+  - Social Media
 meta_title: Buyer Personas
 meta_description: >-
   The basic idea of social media is to connect people together, whether it be with old friends, family, or just to meet people with similar interests. Something to think about is, how should users of these platforms respond when they are doing just about everything but connecting you with what you care about? You sign up, add said people, like those said groups, and at the end of the day you don’t even end up seeing half of what you intended on. As the tier begins to unfold, that is just a minute flaw in the social platform of Facebook.
