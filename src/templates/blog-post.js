@@ -13,10 +13,10 @@ export default({data}) => {
             <h1 className='has-text-centered'>{post.frontmatter.title}</h1>
             <div className="columns">
               <div className="column">
-                <p className="blog-sub-text">{post.frontmatter.date}</p>
-              </div>
-              <div className="column">
-                <p className="blog-sub-text has-text-right">{post.frontmatter.tags}</p>
+                <p className="blog-sub-text">
+                  <span className="has-text-left">{post.frontmatter.date}</span>
+                  <span className='has-text-right'>{post.frontmatter.tags}</span>
+                </p>
               </div>
             </div>
             <hr className='border'/>
