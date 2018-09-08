@@ -28,17 +28,11 @@ const contact = () => (
             <p className='contact-project has-text-centered'>
               <i className="contact-icon bx bx-envelope bx-border-circle"></i>
               Email</p>
+            <EmailButton/>
           </div>
           <div className="column">
             <p className='contact-project has-text-centered'>
               <i className="contact-icon bx bx-report bx-border-circle"></i>Looking For A Quote?</p>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column">
-            <EmailButton/>
-          </div>
-          <div className="column">
             <GSNButton/>
           </div>
         </div>
