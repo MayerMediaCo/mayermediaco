@@ -4,26 +4,26 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "boxicons": "^1.6.0",
+    "boxicons": "^1.7.1",
     "bulma": "^0.7.1",
-    "gatsby": "next",
-    "gatsby-link": "^1.6.45",
+    "gatsby": "^2.0.0-rc.14",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-mailchimp": "^2.2.3",
-    "gatsby-plugin-netlify-cms": "^3.0.0-beta.3",
+    "gatsby-plugin-netlify-cms": "^3.0.0-rc.1",
     "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-sass": "^2.0.0-beta.5",
+    "gatsby-plugin-sass": "^2.0.0-rc.2",
     "gatsby-react-router-scroll": "^1.0.18",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
-    "netlify-cms": "^2.0.8",
+    "netlify-cms": "^2.1.1",
     "node-sass": "^4.9.3",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-helmet": "^5.2.0",
-    "sass-loader": "^7.0.3"
+    "sass-loader": "^7.1.0"
   },
   "keywords": [
     "gatsby"
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^1.0.9",
-    "prettier": "^1.12.0"
+    "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",
