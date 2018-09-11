@@ -13,13 +13,13 @@ meta_description: >-
 author: Danny Mayer
 ---
 
-# 6 Tools to Kickstart Your Social Media Marketing Campaign
+# Kickstart your Social Media Marketing
 
 ![Social Media on a Phone](/img/social.jpg)
 
 Social media marketing is essential to grow and thrive in the modern business atmosphere.  Everyone and their grandmother, quite literally, uses social media.  The potential reach you can obtain with a solid social media marketing strategy is mind boggling.  A decade ago, brands would spend thousands to reach even just a portion of the potential reach you can obtain on social media.  
 
-While it can be difficult to master, social media is easy enough for any brand to get involved with.  This kind of marketing strategy lends itself to more of a long term plan does require quite a bit of consistent time and effort.  Below, you will find 8 tools I find to be indispensable for cutting the time you spend on your social media marketing campaign and improving your ROI!
+While it can be difficult to master, social media is easy enough for any brand to get involved with.  This kind of marketing strategy lends itself to more of a long term plan does require quite a bit of consistent time and effort.  Below, you will find six tools I find to be indispensable for cutting the time you spend on your social media marketing campaign and improving your ROI!
 
 ## [1. Buffer](https://buffer.com/)
 
