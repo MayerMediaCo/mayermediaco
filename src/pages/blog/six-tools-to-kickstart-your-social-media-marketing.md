@@ -9,9 +9,10 @@ tags:
   - Social Media
 meta_title: Six Tools to Kickstart your Social Media Marketing
 meta_description: >-
-Social media marketing is essential to grow and thrive in the modern business atmosphere.  Everyone and their grandmother, quite literally, uses social media.  The potential reach you can obtain with a solid social media marketing strategy is mind boggling.  A decade ago, brands would spend thousands to reach even just a portion of the potential reach you can obtain on social media. 
+  Social media marketing is essential to grow and thrive in the modern business atmosphere.  Everyone and their grandmother, quite literally, uses social media.  The potential reach you can obtain with a solid social media marketing strategy is mind boggling.  A decade ago, brands would spend thousands to reach even just a portion of the potential reach you can obtain on social media. 
 author: Danny Mayer
 ---
+
 # 6 Tools to Kickstart Your Social Media Marketing Campaign
 
 ![Social Media on a Phone](/img/social.jpg)
