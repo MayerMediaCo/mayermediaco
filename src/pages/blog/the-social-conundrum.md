@@ -13,7 +13,7 @@ meta_description: >-
 author: Danny Mayer
 ---
 
-# Moving Past Facebook
+## Moving Past Facebook
 
 The basic idea of social media is to connect people together, whether it be with old friends, family, or just to meet people with similar interests. Something to think about is, how should users of these platforms respond when they are doing just about everything but connecting you with what you care about? You sign up, add said people, like those said groups, and at the end of the day you don’t even end up seeing half of what you intended on. As the tier begins to unfold, that is just a minute flaw in the social platform of Facebook.
 
@@ -23,7 +23,7 @@ For both brands and casual users, it is time to evaluate the role Facebook plays
 
 The largest social network known to man tried providing it all, instead of focusing on what made the platform so attractive in the first place. I’d rather be able to see what my grandma is up to now a days without having to fight through countless ads and pointless additives. Food for thought, have you ever been in deep conversation with someone and suddenly you’re seeing ads of that specific (and sometimes even completely irrelevant and out there) subject of the conversation you were just having? Yeah? Yikes. These occurrences have not panned out so well for them time and time again. While they have consistently endured blow after blow and have managed bounce back, a time will come where enough is enough and you they wont even be able to bounce back. Remember MySpace? It’s the beginning of the end of Facebook. Mark will see you soon, Tom!
 
-## Facebook’s Follies
+### Facebook’s Follies
 
 Mistakes in life are inevitable, it is an unavoidable aspect in life.  Facebook is in the unique position of doing something that has never been done at their scale before, nothing on this social platform has ever been as enormous as Facebook.  Naturally, this facilitates much more room for error.  Someone has to make the mistakes and lay the groundwork for other similar companies to build a basis off of, and  although Facebook should not be entirely held accountable for some of the events that they have undergone. Someone has to be. There are some liabilities they should be holding that they are not necessarily held responsible to, it cant be Facebooks fault that your side chick stumbles upon your page and sees your profile picture of you and your wife...again, yikes. With that some will say Facebook ruined my life!!! Nope, you ruined your own life there, buddy.
 
@@ -41,7 +41,7 @@ When questioned about the need to store such large amounts of data, Zuckerburg s
 
 Overall, the Cambridge Analytica data leak is moreso unacceptable due to a few different reasons.  Facebook has a large involvement in technology, more  than just a social media platform, so security would be something they would own entirely, and should essentially be the most important aspect in their development.  Lack of transparency and accountability after initially hearing about the leak is also unacceptable. This is something that should have been known STAT, there is no logical reasoning as to why users should not have been informed of their invasion of privacy immediately.  And finally, the need for the massive amounts of data they store on users and the fairly unreadable privacy policy is the truly unacceptable portions of the scandal. There is no reason why Facebook should have to know things such as religion, location, or even political views. Those are just the basics of information stored on you. That blow up doll you searched to order? Yeah, that was stored too.  
 
-### Algorithms and Poor User Experience
+#### Algorithms and Poor User Experience
 
 Outside of the massive leak, there are several other issues with the user experience of the platform in general.  These include things such as hyper targeting of ads, “fake news,” and other algorithm choices Facebook portrays.
 
@@ -67,7 +67,7 @@ Again, relying on artificial intelligence has caused irreparable damage to a use
 
 Overall, Facebook has suffered through many problems over the years.  While some may not be to the entire blame of the platform, I believe it can be said that they have done more harm than good at this point.  There are some benefits to the platform still...but the rope is wearing thin.
 
-## What Facebook can still offer
+#### What Facebook can still offer
 
 There are a few benefits to putting some time into Facebook still.  There is no denying that Facebook is still the most widely used social network.  And Facebook may be able to work well for your particular brand, and your audience may primarily just live their lives on this specific platform. It has the potential all to benefit.
 
@@ -87,7 +87,7 @@ Facebook also offers fairly advanced analytics for your pages and customization 
 
 While Facebook has a lot of flaws, it does provide decent benefits in terms of services for brands and the upcoming of making yourself known. I do not believe it should be a brands only social platform, but it should be at least something that every brand has, even if it is not as active as others as this may be the only form of social media someone uses. At this point in time,  Facebook is still largely a necessary evil, until something else pops up that the mass users of Facebook will flock too. Say hi to Tom for us.  Even then it is still quite a few years away, but more and more users are starting to flee the platform.  But where are they going? Who is next?
 
-## Where to go next
+#### Where to go next
 
 The biggest appeal to facebook is the size of the community and the relatively low barrier of entry.  Anyone who wanted to get involved on Facebook could do so with relative ease and understanding, and as their use of the platform went deeper, they were able to explore and expand into the more advanced features.  So what is the next move if everyone is to leave Facebook? How could any other platform have more to offer than Facebook? How could any compare? Will anyone ever compare?
 
@@ -121,7 +121,7 @@ Mastodon at its core is a Twitter clone, but it is done in a way based off of wh
 
 The biggest challenge Mastodon faces is the relatively high barrier to entry.  The platform was made for the more well informed as the concepts can be a bit complicated.  And due to its relative infancy, the likelihood of people taking time to learn and participate in the platform is not all the way there just yet.  There is also a lack of social proof as there are not many big names out there quite yet on the platform. The good doesn’t always come easy. Always worth it though!
 
-## Moving on
+### Moving on
 
 It is pretty plain to see that there are plenty of options out there for moving a brand off of Facebook that are just as viable, but maybe not as convenient at the time being.  Over the course of the next year, without a doubt there will be a platform that will rise as a true contender to Facebook, and the social war will ensue.  It may be a brand new app, or a platform that has been around for a while that finally nails everything users are looking for in a social networking app. It may even be something entirely brand new. What goes around comes around Facebook.
 

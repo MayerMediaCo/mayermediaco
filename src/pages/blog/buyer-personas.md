@@ -13,13 +13,13 @@ meta_description: >-
   digital marketing efforts.
 author: Danny Mayer
 ---
-# What are Buyer Personas
+## What are Buyer Personas
 
 Buyer Personas are a relatively new concept, stemming from the rise of content marketing. The concept and usability of buyer personas can be incredibly impactful and should be an integral part of every modern marketing strategy, digital or not.
 
 The idea behind the buyer persona is pretty simple, using statistics from actual customers, or your ideal audience, you create fake personas in order to better direct your efforts to fit towards one of your ideal audiences. Depending on the scope of your marketing strategy and how niche your product is, you can many personas or very few, and you can always add and tweak as time goes on.
 
-## Where to Start
+### Where to Start
 
 First things first, you must know your audience, or personify your ideal audience. Start with the basics, demographics such as:
 
@@ -46,7 +46,7 @@ Once you gather all of your information, it is time to put it all together!
 
 ![Buyer personas represent your clients](/img/ben-sweet-456320-unsplash.jpg)
 
-## Personality and Stories of your Clients
+### Personality and Stories of your Clients
 
 You will then want to create a back story for your personas. These stories and the more detailed and specific personality traits you will be able to pull from them should be relevant stories that can impact or detail how an interaction with this client should go.
 
@@ -60,7 +60,7 @@ It may also help to create negative buyer personas as well. You will need the sa
 
 Doing this can help you identify key factors in a customer that trigger red flags pointing to someone you may not like to work with. Being able to identify these traits early can save you a ton of time, effort, and headaches down the road.
 
-## Putting it all Together
+### Putting it all Together
 
 By creating these buyer personas you leverage key insights into your customers thoughts and actions, and provide yourself with a more clear and defined path when focusing your marketing campaign on key audiences.
 

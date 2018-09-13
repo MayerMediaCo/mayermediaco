@@ -14,7 +14,7 @@ meta_description: >-
 author: Danny Mayer
 ---
 
-# **Overwhelmed by the process of planning a website?**
+## **Overwhelmed by the process of planning a website?**
 
 Bringing your brand or business to the endless depths of the web is the most exhilarating first step to bringing your vision and creations to life, but it is not without its challenges.  Creating a website is a huge undertaking project that requires planning and a structure of a vision of how you want your website to function.  There are things to consider when preparing your next big project. Such as picking a hosting provider that fits your wants and needs, knowing the kind of message you are trying to portray to your target audience, and having a goal for the success of your website.
 
@@ -25,7 +25,7 @@ I will be breaking the process down into three different areas of thought. These
 
 ![Branding strategy on paper](/img/brand-strat.jpg)
 
-## **Your Brand**
+### **Your Brand**
 
 Your brand is the most important factor, as it is what connects you with your audience and includes much more than just your logo and a font you really fancy.  Smaller details including the colors, tone of voice, imagery, and the overall style and feel of your website is all reflective of your brand.
 
@@ -45,7 +45,7 @@ As you are going through these areas, you will notice that they tend to work off
 
 While this is barely scratching the surface of branding, it is a good way to get you on the right path to a successful site. Once you have a solid plan in motion for the branding of your site, you can begin thinking about the features and functionality you want out of your site.
 
-## **Features and Functionality**
+### **Features and Functionality**
 
 Every website will have different levels of needs based on your brand, the structure,  and your overall goals for the future of your site. An E-Commerce site will have much different needs than a site hosting a forum or a personal blog or portfolio. It’s all about what your site will be entailed to!
 
@@ -76,7 +76,7 @@ There are a tons of different features you may want or need for your website. Yo
 
 Although some features may be more appropriate than others, and some will just make sense as a road way to meet your goals, they are vital factors in the success of your website.  If you feel stuck, it helps to look at similar websites in your niche,  or even sites that just plain inspire you and jumpstart your mind for the vision you are trying to achieve. You may find that it is a good idea to look  at what features you are inspired by, the  pages they are implementing, and if possible,  you may even have the opportunity reach out to them and ask questions, in turn guiding you down your decision making.
 
-## **Logistics**
+### **Logistics**
 
 Now lastly, the final area to consider when planning a website is the logistical aspects of it. Logistical aspects are things that include hosting, collecting your assets, and registering the domains of your website.
 
@@ -114,7 +114,7 @@ Your domain name is another more ambiguous piece of a website for people. When c
 
 Now if you’ve made it this far, congratulations. While some of these things may be a bit beyond your comfort level, and at this point you may even feel that this is not plausible for you, the end of the story is that having an idea of what you want when you initially meet with a designer or developer can help them better understand your needs and better guide you to creating the exact vision you have worked hard to bring to life and put it out there for the world to see.
 
-## **Still want that website?**
+### **Still want that website?**
 
 Fact of the matter is, the process of getting everything together for a website can be daunting and seem absolutely impossible. It is a big decision, and one that I do not think you should try to figure all out on your own. It is okay to need help and you might find that reaching out will bring an abundance of ideas to your personal vision. Partner with your designer or your developer, identify your goals, research other sites similar to what you are looking for, and brainstorm.  You are not going to wake up one day and have everything cut, dried, and laid out. This is not a chicken dinner. The point is not to  go in with a full blown plan in your head that you are dead set on, further not accepting any changes or suggestions made by progress along the way. Rather, have a good head start with a direction. If, during the process, you nail exactly what you want, that is not bad either, kudos to you. I would not count on that happening without at least 1 change and that is okay! I still suggest partnering with your developer to work with them on the implementation to gain the full value of your vision.
 

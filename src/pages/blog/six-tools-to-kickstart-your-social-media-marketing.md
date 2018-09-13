@@ -13,7 +13,7 @@ meta_description: >-
 author: Danny Mayer
 ---
 
-# Kickstart your Social Media Marketing
+## Kickstart your Social Media Marketing
 
 ![Social Media on a Phone](/img/social.jpg)
 
@@ -21,7 +21,7 @@ Social media marketing is essential to grow and thrive in the modern business at
 
 While it can be difficult to master, social media is easy enough for any brand to get involved with.  This kind of marketing strategy lends itself to more of a long term plan does require quite a bit of consistent time and effort.  Below, you will find six tools I find to be indispensable for cutting the time you spend on your social media marketing campaign and improving your ROI!
 
-## [1. Buffer](https://buffer.com/)
+### [1. Buffer](https://buffer.com/)
 
 Buffer is a social media scheduler and manager.  Buffer offers the ability to schedule your posts to services like Facebook, Twitter, Instagram, Pinterest and more.  In addition to basic social media scheduling, Buffer also offers analytics and team member access.  
 
@@ -33,7 +33,7 @@ Buffer also has a separate app, Buffer Reply, which will allow you to engage wit
 
 ![Buffer Homepage](/img/buffer.png)
 
-### Pricing
+**Pricing**
 
 Buffer has a few different plans with various degrees of accessibility per plan.  
 
@@ -45,7 +45,7 @@ The Business plans for Buffer start at $99 a month but bring in access to more a
 
 Overall, Buffer is a solid and reliable general management app for your social campaigns.  With a very adequate free plan and the ability to trial the paid features, it is well worth checking out.  You’ll save time on your social marketing campaigns and free up time to focus on your audience.
 
-## [2. Canva](https://www.canva.com/)
+### [2. Canva](https://www.canva.com/)
 
 If content is king in social media, then Canva deserves the spot of queen.  Canva is ridiculously easy way to create graphics and other assets for your social media campaigns.
 
@@ -59,7 +59,7 @@ Canva even started rolling out free design courses for users.  While relatively 
 
 Canva is available on either a desktop browser or on mobile applications.  The mobile applications are also just as powerful as the browser.  I cannot explain how much of a lifesaver this has been when you need to create graphics to share quickly while out and away from your workstation all day.
 
-### Pricing
+**Pricing**
 
 Canva boasts a forever free model for their base users and you get a TON for free.  Storage and organization on the platform is somewhat limited on the free tier, you get two folders for designs and 1 GB of storage for photos and assets.  This is easily fixed by using a service like Dropbox or other cloud or hardware storage solutions and moving finished designs into a separate system for storage.  The free tier also has access to over 8,000 templates and millions of additional, premium photos for relatively low cost, especially when comparing to standard stock photo pricing.
 
@@ -69,7 +69,7 @@ Canva for Work also offers an enterprise level package for significantly larger 
 
 Any brand with any level of focus on content output as a part of their marketing strategy needs to check Canva out.  It truly is the Swiss Army Knife of graphic design and can fit just about any need for just about any market.
 
-## [3. Buzzsumo](https://buzzsumo.com/)
+### [3. Buzzsumo](https://buzzsumo.com/)
 
 Buzzsumo is the ultimate content tool.  Buzzsumo provides advanced analytics.  Buzzsumo does not provide analytics on personal sites or social media accounts, but instead focuses on analytics and insights surrounding content.  You will find analytics on keywords, brands, and influencers through this service.  
 
@@ -79,7 +79,7 @@ Buzzsumo markets solutions for content discovery and curation, brand monitoring,
 
 While much of the services Buzzsumo provides lends itself to a content marketing strategy, content and social media go hand in hand.  From the very simple trending topics in your specific keywords, to incredibly in-depth analysis of competitors, influencers, and brands, Buzzsumo is an essential way to gain a better understanding of your target audience.
 
-### Pricing
+**Pricing**
 
 There are a few different pricing models available for Buzzsumo, ranging from $39 a month to $239 a month.  While a bit pricier of a tool, if you take content and social marketing seriously, the ROI and time saved is well worth the cost.
 
@@ -91,7 +91,7 @@ The Large Plan is their largest standardized plan before getting into the enterp
 
 Buzzsumo can be a bit pricey and may not be the first tool you will want to grab, but as you start to scale your social marketing strategy, it is an absolutely invaluable tool to stay on trending topics, reach your audience on proven things they care about, and gain valuable insight and analytics on your brand and your competitors.
 
-## [4. Unsplash](https://unsplash.com/)
+### [4. Unsplash](https://unsplash.com/)
 
 Unsplash is an incredible stock photo library curated from the photography community.  The library contains thousands of photos that are used by everything from big brands like Apple to bloggers looking for high quality photos for their website or posts.  
 
@@ -103,11 +103,11 @@ Creators also have a great way to gain exposure due to the popularity of the sit
 
 You can search and browse for photos with a focus on keywords that you are looking to target, or you can browse their collections.  Unsplash has a featured collection which updates weekly, as well as curated collections based on your account and search history.  They also feature collections for wallpapers for your desktop or mobile device, public domain images, user created collections and more.
 
-### Pricing
+**Pricing**
 
 The best part about Unsplash is that is is absolutely free to use.  The license Unsplash gives consumers gives you the right to use anything and everything for free, no strings attached.  You do not even have to give credit to the photographer, although you should because that is the right thing to do.
 
-## [5. If This, Then That (IFTTT)](https://ifttt.com/)
+### [5. If This, Then That (IFTTT)](https://ifttt.com/)
 
 ![If This, Then That Homepage](/img/ifttt.png)
 
@@ -121,11 +121,11 @@ But what if you have a specific use case that you would like to automate or brea
 
 IFTTT is an incredibly powerful way to even further automate your social media marketing efforts, especially when coupled with services like Buffer.  The joy of IFTTT is in the ease of use and the comfort in knowing you can focus more on your business and clients.
 
-### Pricing
+**Pricing**
 
 IFTTT is an incredibly powerful tool and is completely free to boot.  There are hundreds of popular services integrated within the app, ranging from apps like Slack and Evernote to Dominos and Uber, all at no cost whatsoever.
 
-## [6. Feedly](https://feedly.com/i/welcome)
+### [6. Feedly](https://feedly.com/i/welcome)
 
 The easiest way to describe Feedly is that it is an advanced RSS reader.  Feedly allows users to collect content streams from publications, blogs, YouTube channels, RSS feeds, tweets, and Google Keyword alerts all onto one platform.  You can also pull in content saved in services like Pocket into the app as well, collecting all of the content you wish to consume or share.  
 
@@ -135,11 +135,11 @@ Feedly is a fantastic way to cut down time by keeping on top of competitors cont
 
 Feedly also integrates into services like Facebook, Twitter, and Buffer for easy sharing of content to all of your audiences.  You are also able to integrate Feedly into powerful automation apps like IFTTT and Zapier to make it even easier to integrate into your workflows that you use every day.
 
-### Pricing
+**Pricing**
 
 Feedly is another service on this last that is completely free.  Feedly features no paid version and is completely open.  As far as content and consumption goes, Feedly will quickly become one of your go-to services to host everything in one place in a clean and easy to navigate UI.
 
-## Wrapping Up
+### Wrapping Up
 
 There are tons of apps and web services available to fit just about any and every use case.  There are also no right or wrong ways to use apps and services as long as they get the job done for you.
 
