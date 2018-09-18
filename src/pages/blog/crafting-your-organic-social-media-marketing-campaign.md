@@ -9,8 +9,7 @@ tags:
   - Social Media
 meta_title: Crafting your Organic Social Media Marketing Campaign
 meta_description: >-
-Social Media is an incredibly effective way to market your brand and gain potential viral growth.  The caveat to this is the massive amount of time and dedication it takes to being successful on any social platform.
-Approaching social media without a plan or strategy can turn in to major time sinks with little to no results to show for it.  Setting a base plan and continuously reacting and adjusting as needed is key to seeing meaningful results from your efforts.
+  Social Media is an incredibly effective way to market your brand and gain potential viral growth.  The caveat to this is the massive amount of time and dedication it takes to being successful on any social platform.  Approaching social media without a plan or strategy can turn in to major time sinks with little to no results to show for it.  Setting a base plan and continuously reacting and adjusting as needed is key to seeing meaningful results from your efforts.
 author: Danny Mayer
 ---
 
