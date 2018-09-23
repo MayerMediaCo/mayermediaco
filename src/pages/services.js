@@ -30,7 +30,7 @@ const services = () => (
               <Link to='/services/design' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bxs-layout bx-border-circle"></i>
-                  Design</h3>
+                  {" "}Design</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -66,7 +66,7 @@ const services = () => (
               <Link to='/services/development' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-code-curly bx-border-circle"></i>
-                  Development</h3>
+                  {" "}Development</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -105,7 +105,7 @@ const services = () => (
               <Link to='/services/marketing' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-trending-up bx-border-circle"></i>
-                  Marketing</h3>
+                  {" "}Marketing</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -144,7 +144,7 @@ const services = () => (
                 className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-globe bx-border-circle"></i>
-                  Research and Analytics</h3>
+                  {" "}Research and Analytics</h3>
               </Link>
             </div>
             <div className="card-content">

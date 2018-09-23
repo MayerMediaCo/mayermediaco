@@ -24,6 +24,7 @@ const BlogListingPage = ({
           <p className="subtitle has-text-centered">A collection of articles, tutorials, and case studies.</p>
         </div>
       </section>
+
       <section className="section">
         <div className="column is-three-fifths is-offset-one-fifth">
           {Posts}

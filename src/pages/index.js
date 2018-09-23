@@ -1,15 +1,26 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import {graphql} from "gatsby"
 
 import Layout from '../components/layout/layout'
 import Header from '../components/header/header'
 import CTA from '../components/call-to-action/call-to-action'
 import GSNButton from '../components/buttons/get-started-now'
+import FeaturedPost from '../components/featured-post/featured-post'
 
 import Logo from '../assets/img/mmc_logo.png'
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({
+  data: {
+    allMarkdownRemark: {
+      edges
+    }
+  }
+}) => {
+  const Posts = edges.filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .map(edge => <FeaturedPost key={edge.node.id} post={edge.node}/>)
+
+  return <Layout>
     <Header/>
     <div className="container">
       <section className="section">
@@ -36,7 +47,7 @@ const IndexPage = () => (
               <Link to='/services/design' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bxs-layout bx-border-circle"></i>
-                  Design</h3>
+                  {" "}Design</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -55,7 +66,7 @@ const IndexPage = () => (
               <Link to='/services/development' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-code-curly bx-border-circle"></i>
-                  Development</h3>
+                  {" "}Development</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -74,7 +85,7 @@ const IndexPage = () => (
               <Link to='/services/marketing' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-trending-up bx-border-circle"></i>
-                  Marketing</h3>
+                  {" "}Marketing</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -95,7 +106,7 @@ const IndexPage = () => (
                 className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-globe bx-border-circle"></i>
-                  Research and Analytics</h3>
+                  {" "}Research and Analytics</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -108,6 +119,20 @@ const IndexPage = () => (
                 <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
               </div>
             </footer>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="columns">
+          <div className="column">
+            <div className="content">
+              <h3 className='content-title has-text-centered'>
+                Read the Latest Posts
+              </h3>
+              {Posts}
+            </div>
+
           </div>
         </div>
       </section>
@@ -144,6 +169,24 @@ const IndexPage = () => (
     </div>
     < CTA/>
   </Layout>
-)
+}
 
 export default IndexPage
+
+export const indexQuery = graphql `
+  query {
+    allMarkdownRemark(limit: 3, sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
+            title
+          }
+        }
+      }
+    }
+  }
+`

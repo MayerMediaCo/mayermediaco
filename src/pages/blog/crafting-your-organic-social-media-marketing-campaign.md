@@ -27,9 +27,10 @@ Defining a social media marketing plan before even signing up for the  platforms
 When you first start to look at creating a social media marketing strategy, it is important to audit your current social situation and track the results in a spreadsheet to refer back to and build off of as you progress.  
 
 Your social audit will look at 3 main areas:
-*Social Profiles*
-*Content and Engagement*
-*Your Current audience*
+
++ Social Profiles
++ Content and Engagement
++ Your Current audience
 
 ### Social Profiles
 
@@ -42,12 +43,13 @@ Once you gather all of your social platforms, record them, as well as the releva
 The next thing you will want to do is to analyze your content and engagement levels.  On each of the social platforms you currently have, look at your posted content and break down each piece of content by type and platform.  
 
 Some of the content types you may have will be:
-*Status Updates and Tweets*
-*Blog posts your wrote*
-*Blog posts and articles that you share*
-*Images and Infographics*
-*Videos*
-*Live Streams*
+
++ Status Updates and Tweets
++ Blog posts your wrote
++ Blog posts and articles that you share
++ Images and Infographics
++ Videos
++ Live Streams
 
 After breaking down the type of content and the platform it was shared on, record the engagements each piece of content received in your spreadsheet.  It may be helpful to separate content both by type posted on the individual platforms and a generic list of types of content.
 
@@ -86,11 +88,12 @@ Furthermore, certain aspects of your brand should be defined as well in this sec
 After gathering your list of wins and opportunities, you will gain a clearer understanding of your current social situation.  From this understanding, it is important to be able define goals to propel your brand forward.  Goal setting will be vastly different for every brands situation.  Your brand may wish to drive more traffic to your sales and marketing page to sell a product or a service, or grow a community of like minded individuals within your audience.  The possibilities are endless, but whatever your goals may be, they should be S.M.A.R.T. goals.
 
 S.M.A.R.T. Goals are a way of defining goals in an actionable way.  S.M.A.R.T. Stands for:
-*Specific*
-*Measurable*
-*Acheivable*
-*Relevant*
-*Time-Bound*
+
++ Specific
++ Measurable
++ Acheivable
++ Relevant
++ Time-Bound
 
 Defining your goals this way will make sure you are shooting for something manageable and specific.  It is easy to say that I wish to grow my Twitter following by 1000 followers.  It is actionable to say that you want to grow your Twitter followers by 1000 followers in 2 months by slowly growing my audience by a 100  followers a week through engaging at least 20 potential audience members a day, and convincing them to follow by providing useful content and value.
 
