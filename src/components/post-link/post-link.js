@@ -12,7 +12,7 @@ const PostLink = ({post}) => (
       <div className="column">
         <h5 className='blog-meta'>{post.frontmatter.date}</h5>
       </div>
-      <div className="column">
+      <div className="column is-hidden-mobile">
         <h5 className="blog-meta has-text-right">{post.frontmatter.tags}</h5>
       </div>
     </div>
