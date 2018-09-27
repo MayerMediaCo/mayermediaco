@@ -80,28 +80,21 @@ class Navbar extends React.Component {
             <div className="navbar-item">
               <a href="https://twitter.com/MayerMediaCo">
                 <span className="icon">
-                  <i className="nav-icon bx bxl-twitter bx-border-circle"></i>
+                  <i className="nav-icon bx bxl-twitter "></i>
                 </span>
               </a>
             </div>
             <div className="navbar-item">
               <a href="https://www.instagram.com/mayermediaco/">
                 <span className="icon">
-                  <i className="nav-icon bx bxl-instagram bx-border-circle"></i>
+                  <i className="nav-icon bx bxl-instagram "></i>
                 </span>
               </a>
             </div>
             <div className="navbar-item">
               <a href='https://github.com/MayerMediaCo'>
                 <span className="icon">
-                  <i className="nav-icon bx bxl-github bx-border-circle"></i>
-                </span>
-              </a>
-            </div>
-            <div className="navbar-item">
-              <a href="https://www.facebook.com/mayermediaco/">
-                <span className="icon">
-                  <i className="nav-icon bx bxl-facebook bx-border-circle"></i>
+                  <i className="nav-icon bx bxl-github "></i>
                 </span>
               </a>
             </div>
