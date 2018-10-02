@@ -80,19 +80,7 @@ const contact = () => (
                 </div>
               </div>
             </div>
-            <div className="column">
-              <div className="card">
-                <div className="card-content">
-                  <a
-                    href='https://www.facebook.com/mayermediaco/'
-                    className='card-header-title is-centered'>
-                    <h3>Facebook</h3>
-                    <hr className="border"/>
-                    <i className="contact-icon card-header-icon bx bxl-facebook bx-border-circle"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
