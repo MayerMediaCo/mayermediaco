@@ -48,6 +48,18 @@ module.exports = {
           windows: false
         }
       }
-    }
+    }, {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Mayer Media Co.`,
+        short_name: `Mayer Media Co.`,
+        start_url: `/`,
+        background_color: `#D0ECEB`,
+        theme_color: `#57C7C1`,
+        display: `minimal-ui`,
+        icon: `src/assets/img/icon.png`, // This path is relative to the root of the site.
+      }
+    },
+    `gatsby-plugin-offline`
   ]
 }
