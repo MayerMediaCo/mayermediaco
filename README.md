@@ -1,4 +1,4 @@
-#My Personal Website
+# My Personal Website
 
 This site is built using Gatsby V2 with some help from Bulma for a css framework.  There is still a ton of work I plan on doing to the site including:
 - Blog Pagination
