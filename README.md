@@ -1,26 +1,12 @@
-# gatsby-starter-default
-The default Gatsby starter.
+#My Personal Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This site is built using Gatsby V2 with some help from Bulma for a css framework.  There is still a ton of work I plan on doing to the site including:
+- Blog Pagination
+- SEO work
+- Adding social sharing features to the blog
+- Work on overall site accessibility
+- Switching to styled components and moving away from Bulma framework
+- Animating page transitions
+- Animating buttons, icons, and other bits and pieces on the site
 
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Amoung these upcoming features, I plan on making it a bit of a playground for experimentation and trying new things out on
