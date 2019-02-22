@@ -1,45 +1,42 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import PageTransition from 'gatsby-plugin-page-transitions'
 import Layout from '../components/layout/layout'
 import CTA from '../components/call-to-action/call-to-action'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
-    <PageTransition>
-      <Layout>
-        <div className="container">
-          <section className="section">
-            <div className="content page-introduction">
-              <h1 className="has-text-centered">{post.frontmatter.title}</h1>
-              <div className="columns">
-                <div className="column">
-                  <p className="blog-sub-text has-text-left">
-                    {post.frontmatter.date}
-                  </p>
-                </div>
-                <div className="column">
-                  <p className="has-text-right blog-sub-text">
-                    {post.frontmatter.tags}
-                  </p>
-                </div>
+    <Layout>
+      <div className="container">
+        <section className="section">
+          <div className="content page-introduction">
+            <h1 className="has-text-centered">{post.frontmatter.title}</h1>
+            <div className="columns">
+              <div className="column">
+                <p className="blog-sub-text has-text-left">
+                  {post.frontmatter.date}
+                </p>
               </div>
-              <hr className="border" />
+              <div className="column">
+                <p className="has-text-right blog-sub-text">
+                  {post.frontmatter.tags}
+                </p>
+              </div>
             </div>
-            <div className="content">
-              <article
-                className="mainPostStyle"
-                dangerouslySetInnerHTML={{
-                  __html: post.html,
-                }}
-              />
-            </div>
-          </section>
-        </div>
-        <CTA />
-      </Layout>
-    </PageTransition>
+            <hr className="border" />
+          </div>
+          <div className="content">
+            <article
+              className="mainPostStyle"
+              dangerouslySetInnerHTML={{
+                __html: post.html,
+              }}
+            />
+          </div>
+        </section>
+      </div>
+      <CTA />
+    </Layout>
   )
 }
 
