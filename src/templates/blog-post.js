@@ -1,49 +1,51 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import { graphql } from 'gatsby'
+import PageTransition from 'gatsby-plugin-page-transitions'
 import Layout from '../components/layout/layout'
 import CTA from '../components/call-to-action/call-to-action'
 
-export default({data}) => {
+export default ({ data }) => {
   const post = data.markdownRemark
   return (
-    <Layout>
-      <div className='container'>
-        <section className='section'>
-          <div className='content page-introduction'>
-            <h1 className='has-text-centered'>{post.frontmatter.title}</h1>
-            <div className="columns">
-              <div className="column">
-                <p className="blog-sub-text has-text-left">
-                  {post.frontmatter.date}
-                </p>
+    <PageTransition>
+      <Layout>
+        <div className="container">
+          <section className="section">
+            <div className="content page-introduction">
+              <h1 className="has-text-centered">{post.frontmatter.title}</h1>
+              <div className="columns">
+                <div className="column">
+                  <p className="blog-sub-text has-text-left">
+                    {post.frontmatter.date}
+                  </p>
+                </div>
+                <div className="column">
+                  <p className="has-text-right blog-sub-text">
+                    {post.frontmatter.tags}
+                  </p>
+                </div>
               </div>
-              <div className="column">
-                <p className='has-text-right blog-sub-text'>
-                  {post.frontmatter.tags}
-                </p>
-              </div>
+              <hr className="border" />
             </div>
-            <hr className='border'/>
-          </div>
-          <div className="content">
-            <article
-              className='mainPostStyle'
-              dangerouslySetInnerHTML={{
-              __html: post.html
-            }}/>
-          </div>
-        </section>
-      </div>
-      <CTA/>
-    </Layout>
+            <div className="content">
+              <article
+                className="mainPostStyle"
+                dangerouslySetInnerHTML={{
+                  __html: post.html,
+                }}
+              />
+            </div>
+          </section>
+        </div>
+        <CTA />
+      </Layout>
+    </PageTransition>
   )
 }
 
-export const blogPostQuery = graphql `
+export const blogPostQuery = graphql`
   query($slug: String!) {
-    markdownRemark(fields: {
-      slug: {eq: $slug}}) 
-      {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
