@@ -2,11 +2,21 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout/layout'
 import CTA from '../components/call-to-action/call-to-action'
+import SEO from '../components/SEO/SEO'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
+      <SEO
+        title={post.frontmatter.title}
+        description={
+          post.frontmatter.meta_description || post.excerpt || 'nothin’'
+        }
+        image={post.frontmatter.cover}
+        pathname={post.frontmatter.slug}
+        article
+      />
       <div className="container">
         <section className="section">
           <div className="content page-introduction">
@@ -51,6 +61,7 @@ export const blogPostQuery = graphql`
         path
         tags
         cover
+        meta_description
       }
     }
   }
