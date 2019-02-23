@@ -36,12 +36,12 @@ module.exports = {
       options: {
         trackingId: 'UA-113953663-1',
       },
-       {
+    },
+    {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: "GTM-TVJS8PJ",
+        id: 'GTM-TVJS8PJ',
       },
-    },
     },
     'gatsby-plugin-netlify-cms',
     {
