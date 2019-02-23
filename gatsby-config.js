@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mayer Media Co. · Design | Development | Marketing',
+    title: 'Design | Development | Marketing',
     titleTemplate: '%s · Mayer Media Co.',
     description:
       'Mayer Media Co. is a freelance design, web development, and digital marketing effort from Joliet, IL.',
@@ -36,6 +36,12 @@ module.exports = {
       options: {
         trackingId: 'UA-113953663-1',
       },
+       {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-TVJS8PJ",
+      },
+    },
     },
     'gatsby-plugin-netlify-cms',
     {
