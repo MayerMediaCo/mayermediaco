@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import SEO from '../SEO/SEO'
 
 import Navbar from '../navbar/navbar'
 import Footer from '../footer/footer'
@@ -23,6 +24,7 @@ const Layout = ({ children, data }) => (
     render={data => (
       <>
         <Helmet />
+        <SEO />
         <Navbar />
         <div>{children}</div>
         <Footer />
