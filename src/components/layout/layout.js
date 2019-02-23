@@ -1,16 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
 
 import Navbar from '../navbar/navbar'
 import Footer from '../footer/footer'
 
-import config from '../../../meta/config'
-
 import 'boxicons/css/boxicons.min.css'
 import './layout.sass'
-
 
 const Layout = ({ children, data }) => (
   <StaticQuery
@@ -25,16 +22,9 @@ const Layout = ({ children, data }) => (
     `}
     render={data => (
       <>
-        <Helmet
-          title={config.siteTitle}
-          meta={[
-            { name: 'description', content: '{config.siteDescription}' },
-          ]}
-        />
+        <Helmet />
         <Navbar />
-        <div>
-          {children}
-        </div>
+        <div>{children}</div>
         <Footer />
       </>
     )}
