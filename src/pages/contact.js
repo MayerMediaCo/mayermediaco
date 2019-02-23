@@ -7,49 +7,54 @@ import EmailButton from '../components/buttons/email-button'
 
 const contact = () => (
   <Layout>
-    <div className='container'>
+    <div className="container">
       <section className="section">
         <div className="content page-introduction">
-          <div className='has-text-centered'>
-            <h1 className='title'>Get In Touch</h1>
+          <div className="has-text-centered">
+            <h1 className="title">Get In Touch</h1>
             <p>
               There are tons of ways to connect with me all over the internet
             </p>
-            <hr className="border"/>
+            <hr className="border" />
           </div>
         </div>
       </section>
       <section className="section">
-
         <h3 className="contact-project has-text-centered">
-          Send me an E-Mail or Start Your Project</h3>
+          Send me an E-Mail or Start Your Project
+        </h3>
         <div className="columns">
           <div className="column">
-            <p className='contact-project has-text-centered'>
-              <i className="contact-icon bx bx-envelope bx-border-circle"></i>
-              Email</p>
-            <EmailButton/>
+            <p className="contact-project has-text-centered">
+              <i className="contact-icon bx bx-envelope bx-border-circle" />
+              Email
+            </p>
+            <EmailButton />
           </div>
           <div className="column">
-            <p className='contact-project has-text-centered'>
-              <i className="contact-icon bx bx-report bx-border-circle"></i>Looking For A Quote?</p>
-            <GSNButton/>
+            <p className="contact-project has-text-centered">
+              <i className="contact-icon bx bxs-report bx-border-circle" />
+              Looking For A Quote?
+            </p>
+            <GSNButton />
           </div>
         </div>
 
         <div className="social-contact">
           <h3 className="contact-project has-text-centered">
-            Get Connected on Social Media</h3>
+            Get Connected on Social Media
+          </h3>
           <div className="columns is-desktop">
             <div className="column">
               <div className="card">
                 <div className="card-content">
                   <a
-                    href='https://twitter.com/MayerMediaCo'
-                    className='card-header-title is-centered'>
+                    href="https://twitter.com/MayerMediaCo"
+                    className="card-header-title is-centered"
+                  >
                     <h3>Twitter</h3>
-                    <hr className="border"/>
-                    <i className="contact-icon  card-header-icon bx bxl-twitter bx-border-circle"></i>
+                    <hr className="border" />
+                    <i className="contact-icon  card-header-icon bx bxl-twitter bx-border-circle" />
                   </a>
                 </div>
               </div>
@@ -58,11 +63,12 @@ const contact = () => (
               <div className="card">
                 <div className="card-content">
                   <a
-                    href='https://www.instagram.com/mayermediaco/'
-                    className='card-header-title is-centered'>
+                    href="https://www.instagram.com/mayermediaco/"
+                    className="card-header-title is-centered"
+                  >
                     <h3>Instagram</h3>
-                    <hr className="border"/>
-                    <i className="contact-icon card-header-icon bx bxl-instagram bx-border-circle"></i>
+                    <hr className="border" />
+                    <i className="contact-icon card-header-icon bx bxl-instagram bx-border-circle" />
                   </a>
                 </div>
               </div>
@@ -71,22 +77,21 @@ const contact = () => (
               <div className="card">
                 <div className="card-content">
                   <a
-                    href='https://github.com/MayerMediaCo'
-                    className='card-header-title is-centered'>
+                    href="https://github.com/MayerMediaCo"
+                    className="card-header-title is-centered"
+                  >
                     <h3>Github</h3>
-                    <hr className="border"/>
-                    <i className="contact-icon card-header-icon bx bxl-github bx-border-circle"></i>
+                    <hr className="border" />
+                    <i className="contact-icon card-header-icon bx bxl-github bx-border-circle" />
                   </a>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
-
     </div>
-    < CallToAction/>
+    <CallToAction />
   </Layout>
 )
 

@@ -1,38 +1,39 @@
-import React from "react";
-import {navigateTo} from "gatsby-link";
+import React from 'react'
+import { navigateTo } from 'gatsby-link'
 
 function encode(data) {
-  return Object
-    .keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
 }
 
 export default class Contact extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = {};
+    super(props)
+    this.state = {}
   }
 
   handleChange = e => {
     this.setState({
-      [e.target.name]: e.target.value
-    });
-  };
+      [e.target.name]: e.target.value,
+    })
+  }
 
   handleSubmit = e => {
-    e.preventDefault();
-    const form = e.target;
-    fetch("/", {
-      method: "POST",
+    e.preventDefault()
+    const form = e.target
+    fetch('/', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/x-www-form-urlencoded"
+        'Content-Type': 'application/x-www-form-urlencoded',
       },
       body: encode({
-        "form-name": form.getAttribute("name"),
-        ...this.state
-      })
-    }).then(() => navigateTo(form.getAttribute("action"))).catch(error => alert(error))
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then(() => navigateTo(form.getAttribute('action')))
+      .catch(error => alert(error))
   }
 
   render() {
@@ -43,13 +44,13 @@ export default class Contact extends React.Component {
         action="/thanks"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit={this.handleSubmit}>
-
-        <input type="hidden" name="form-name" value="contact"/>
+        onSubmit={this.handleSubmit}
+      >
+        <input type="hidden" name="form-name" value="contact" />
         <p hidden>
           <label>
-            Don’t fill this out:{" "}
-            <input name="bot-field" onChange={this.handleChange}/>
+            Don’t fill this out:{' '}
+            <input name="bot-field" onChange={this.handleChange} />
           </label>
         </p>
 
@@ -59,12 +60,13 @@ export default class Contact extends React.Component {
             <input
               type="text"
               className="input"
-              placeholder='Name'
+              placeholder="Name"
               name="name"
               required
-              onChange={this.handleChange}/>
-            <span className='icon is-medium is-left'>
-              <i className="bx bx-user"></i>
+              onChange={this.handleChange}
+            />
+            <span className="icon is-medium is-left">
+              <i className="bx bxs-user" />
             </span>
           </div>
         </div>
@@ -74,11 +76,12 @@ export default class Contact extends React.Component {
             <input
               type="text"
               className="input"
-              placeholder='Phone Number'
+              placeholder="Phone Number"
               name="phone number"
-              onChange={this.handleChange}/>
-            <span className='icon is-medium is-left'>
-              <i className="bx bx-phone"></i>
+              onChange={this.handleChange}
+            />
+            <span className="icon is-medium is-left">
+              <i className="bx bxs-phone" />
             </span>
           </div>
         </div>
@@ -89,12 +92,13 @@ export default class Contact extends React.Component {
             <input
               type="email"
               className="input"
-              placeholder='E-Mail Address'
+              placeholder="E-Mail Address"
               name="email address"
               required
-              onChange={this.handleChange}/>
-            <span className='icon is-medium is-left'>
-              <i className="bx bx-envelope"></i>
+              onChange={this.handleChange}
+            />
+            <span className="icon is-medium is-left">
+              <i className="bx bx-envelope" />
             </span>
           </div>
         </div>
@@ -104,11 +108,12 @@ export default class Contact extends React.Component {
             <input
               type="text"
               className="input"
-              placeholder='Company / Organization'
+              placeholder="Company / Organization"
               name="business"
-              onChange={this.handleChange}/>
-            <span className='icon is-medium is-left'>
-              <i className="bx bx-building"></i>
+              onChange={this.handleChange}
+            />
+            <span className="icon is-medium is-left">
+              <i className="bx bxs-building" />
             </span>
           </div>
         </div>
@@ -119,11 +124,12 @@ export default class Contact extends React.Component {
             <input
               type="text"
               className="input"
-              placeholder='Website URL'
+              placeholder="Website URL"
               name="website"
-              onChange={this.handleChange}/>
-            <span className='icon is-medium is-left'>
-              <i className="bx bx-laptop"></i>
+              onChange={this.handleChange}
+            />
+            <span className="icon is-medium is-left">
+              <i className="bx bx-laptop" />
             </span>
           </div>
         </div>
@@ -134,20 +140,24 @@ export default class Contact extends React.Component {
             <textarea
               name="project details"
               onChange={this.handleChange}
-              className='textarea'
+              className="textarea"
               required
-              placeholder='What are you trying to accomplish?'
-              rows="10"></textarea>
+              placeholder="What are you trying to accomplish?"
+              rows="10"
+            />
           </div>
         </div>
 
         <div className="field column">
           <div className="control">
-            <input type="submit" value="Submit" className="button form-button"/>
+            <input
+              type="submit"
+              value="Submit"
+              className="button form-button"
+            />
           </div>
         </div>
-
       </form>
-    );
+    )
   }
 }
