@@ -1,10 +1,12 @@
-const config = require('./meta/config')
-
 module.exports = {
   siteMetadata: {
-    title: config.siteTitle,
-    siteUrl: config.siteUrl,
-    siteDescription: config.siteDescription,
+    title: 'Mayer Media Co. · Design | Development | Marketing',
+    titleTemplate: '%s · Mayer Media Co.',
+    description:
+      'Mayer Media Co. is a freelance design, web development, and digital marketing effort from Joliet, IL.',
+    url: 'https://www.mayermediaco.com',
+    image: '/mmc_logo.png',
+    twitterUsername: '@mayermediaco',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
