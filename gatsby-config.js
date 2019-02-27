@@ -18,7 +18,6 @@ module.exports = {
       },
     },
     'gatsby-transformer-remark',
-    `gatsby-plugin-sitemap`,
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-plugin-google-fonts`,
