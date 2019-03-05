@@ -38,8 +38,7 @@ const services = () => (
                 className="card-header-title is-centered"
               >
                 <h3 className="">
-                  <i className="card-header-icon bx bx-layout bx-border-circle" />{' '}
-                  Design
+                  <i className="card-header-icon bx bx-layout" /> Design
                 </h3>
               </Link>
             </div>
@@ -81,7 +80,7 @@ const services = () => (
                 className="card-header-title is-centered"
               >
                 <h3 className="">
-                  <i className="card-header-icon bx bx-code-curly bx-border-circle" />{' '}
+                  <i className="card-header-icon bx bx-code-curly" />{' '}
                   Development
                 </h3>
               </Link>
@@ -131,8 +130,7 @@ const services = () => (
                 className="card-header-title is-centered"
               >
                 <h3 className="">
-                  <i className="card-header-icon bx bx-trending-up bx-border-circle" />{' '}
-                  Marketing
+                  <i className="card-header-icon bx bx-trending-up" /> Marketing
                 </h3>
               </Link>
             </div>
@@ -175,8 +173,8 @@ const services = () => (
                 className="card-header-title is-centered"
               >
                 <h3 className="">
-                  <i className="card-header-icon bx bx-globe bx-border-circle" />{' '}
-                  Research and Analytics
+                  <i className="card-header-icon bx bx-globe" /> Research and
+                  Analytics
                 </h3>
               </Link>
             </div>
