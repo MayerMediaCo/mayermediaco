@@ -37,7 +37,7 @@ const services = () => (
                 to="/services/design"
                 className="card-header-title is-centered"
               >
-                <h3 className="">
+                <h3 className="has-text-centered">
                   <i className="card-header-icon bx bx-layout" /> Design
                 </h3>
               </Link>
@@ -79,7 +79,7 @@ const services = () => (
                 to="/services/development"
                 className="card-header-title is-centered"
               >
-                <h3 className="">
+                <h3 className="has-text-centered">
                   <i className="card-header-icon bx bx-code-curly" />{' '}
                   Development
                 </h3>
@@ -129,7 +129,7 @@ const services = () => (
                 to="/services/marketing"
                 className="card-header-title is-centered"
               >
-                <h3 className="">
+                <h3 className="has-text-centered">
                   <i className="card-header-icon bx bx-trending-up" /> Marketing
                 </h3>
               </Link>
@@ -172,7 +172,7 @@ const services = () => (
                 to="/services/research-and-analytics"
                 className="card-header-title is-centered"
               >
-                <h3 className="">
+                <h3 className="has-text-centered">
                   <i className="card-header-icon bx bx-globe" /> Research and
                   Analytics
                 </h3>
