@@ -1,13 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
-
+import PropTypes from 'prop-types'
 import Layout from '../components/layout/layout'
 import Header from '../components/header/header'
 import CTA from '../components/call-to-action/call-to-action'
 import GSNButton from '../components/buttons/get-started-now'
 import FeaturedPost from '../components/featured-post/featured-post'
-
 import Logo from '../assets/img/mmc_logo.png'
 
 const IndexPage = ({
@@ -205,6 +204,10 @@ const IndexPage = ({
       <CTA />
     </Layout>
   )
+}
+
+IndexPage.propTypes = {
+  data: PropTypes.string.isRequired,
 }
 
 export default IndexPage

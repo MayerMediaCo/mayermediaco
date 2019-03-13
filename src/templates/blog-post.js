@@ -1,10 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 import Layout from '../components/layout/layout'
 import CTA from '../components/call-to-action/call-to-action'
 import SEO from '../components/SEO/SEO'
 
-export default ({ data }) => {
+const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
@@ -49,6 +50,12 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+BlogPost.propTypes = {
+  data: PropTypes.string.isRequired,
+}
+
+export default BlogPost
 
 export const blogPostQuery = graphql`
   query($slug: String!) {
