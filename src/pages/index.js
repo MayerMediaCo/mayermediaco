@@ -9,13 +9,18 @@ import GSNButton from '../components/buttons/get-started-now'
 import FeaturedPost from '../components/featured-post/featured-post'
 import Logo from '../assets/img/mmc_logo.png'
 
+import DesignIcon from '../assets/icons/design.svg'
+import DevelopmentIcon from '../assets/icons/development.svg'
+import MarketingIcon from '../assets/icons/marketing.svg'
+import AnalyticsIcon from '../assets/icons/analytics.svg'
+
 const IndexPage = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !!edge.node.frontmatter.date)
     .map(edge => <FeaturedPost key={edge.node.id} post={edge.node} />)
 
   return (
@@ -41,14 +46,17 @@ const IndexPage = ({
         <section className="section">
           <div className="columns">
             <div className="card column">
+              <img
+                src={DesignIcon}
+                className="card-header-img"
+                alt="Design Icon"
+              />
               <div className="card-header">
                 <Link
                   to="/services/design"
                   className="card-header-title is-centered"
                 >
-                  <h3 className="has-text-centered">
-                    <i className="card-header-icon bx bx-layout" /> Design
-                  </h3>
+                  <h3 className="has-text-centered"> Design</h3>
                 </Link>
               </div>
               <div className="card-content">
@@ -66,15 +74,17 @@ const IndexPage = ({
               </footer>
             </div>
             <div className="card column">
+              <img
+                src={DevelopmentIcon}
+                className="card-header-img"
+                alt="Development Icon"
+              />
               <div className="card-header">
                 <Link
                   to="/services/development"
                   className="card-header-title is-centered"
                 >
-                  <h3 className="has-text-centered">
-                    <i className="card-header-icon bx bx-code-curly" />{' '}
-                    Development
-                  </h3>
+                  <h3 className="has-text-centered">Development</h3>
                 </Link>
               </div>
               <div className="card-content">
@@ -92,15 +102,17 @@ const IndexPage = ({
               </footer>
             </div>
             <div className="card column">
+              <img
+                src={MarketingIcon}
+                className="card-header-img"
+                alt="Marketing Icon"
+              />
               <div className="card-header">
                 <Link
                   to="/services/marketing"
                   className="card-header-title is-centered"
                 >
-                  <h3 className="has-text-centered">
-                    <i className="card-header-icon bx bx-trending-up" />{' '}
-                    Marketing
-                  </h3>
+                  <h3 className="has-text-centered">Marketing</h3>
                 </Link>
               </div>
               <div className="card-content">
@@ -118,15 +130,17 @@ const IndexPage = ({
               </footer>
             </div>
             <div className="card column">
+              <img
+                src={AnalyticsIcon}
+                className="card-header-img"
+                alt="Research and Analytics Icon"
+              />
               <div className="card-header">
                 <Link
                   to="/services/research-and-analytics"
                   className="card-header-title is-centered"
                 >
-                  <h3 className="has-text-centered">
-                    <i className="card-header-icon bx bx-globe" /> Research and
-                    Analytics
-                  </h3>
+                  <h3 className="has-text-centered"> Research and Analytics</h3>
                 </Link>
               </div>
               <div className="card-content">

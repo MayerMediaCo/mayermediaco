@@ -26,7 +26,7 @@ const Design = () => (
           </div>
           <img
             src={DesignIcon}
-            alt=""
+            alt="Design Icon"
             className="introduction-image is-hidden-mobile"
           />
         </div>

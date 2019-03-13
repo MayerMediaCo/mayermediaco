@@ -5,6 +5,11 @@ import Layout from '../components/layout/layout'
 import CallToAction from '../components/call-to-action/call-to-action'
 import GSNButton from '../components/buttons/get-started-now'
 
+import DesignIcon from '../assets/icons/design.svg'
+import DevelopmentIcon from '../assets/icons/development.svg'
+import MarketingIcon from '../assets/icons/marketing.svg'
+import AnalyticsIcon from '../assets/icons/analytics.svg'
+
 const services = () => (
   <Layout>
     <div className="container">
@@ -32,14 +37,17 @@ const services = () => (
       <section className="section">
         <div className="columns is-desktop">
           <div className="card column is-full-tablet is-half-desktop">
+            <img
+              src={DesignIcon}
+              className="card-header-img"
+              alt="Design Icon"
+            />
             <div className="card-header">
               <Link
                 to="/services/design"
                 className="card-header-title is-centered"
               >
-                <h3 className="has-text-centered">
-                  <i className="card-header-icon bx bx-layout" /> Design
-                </h3>
+                <h3 className="has-text-centered"> Design</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -74,15 +82,17 @@ const services = () => (
             </footer>
           </div>
           <div className="card column is-full-tablet is-half-desktop">
+            <img
+              src={DevelopmentIcon}
+              className="card-header-img"
+              alt="Development Icon"
+            />
             <div className="card-header">
               <Link
                 to="/services/development"
                 className="card-header-title is-centered"
               >
-                <h3 className="has-text-centered">
-                  <i className="card-header-icon bx bx-code-curly" />{' '}
-                  Development
-                </h3>
+                <h3 className="has-text-centered">Development</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -124,14 +134,17 @@ const services = () => (
         <br />
         <div className="columns is-desktop">
           <div className="card column is-full-tablet is-half-desktop">
+            <img
+              src={MarketingIcon}
+              className="card-header-img"
+              alt="Marketing Icon"
+            />
             <div className="card-header">
               <Link
                 to="/services/marketing"
                 className="card-header-title is-centered"
               >
-                <h3 className="has-text-centered">
-                  <i className="card-header-icon bx bx-trending-up" /> Marketing
-                </h3>
+                <h3 className="has-text-centered"> Marketing</h3>
               </Link>
             </div>
             <div className="card-content">
@@ -167,15 +180,17 @@ const services = () => (
             </footer>
           </div>
           <div className="card column is-full-tablet is-half-desktop">
+            <img
+              src={AnalyticsIcon}
+              className="card-header-img"
+              alt="Research and Analytics Icon"
+            />
             <div className="card-header">
               <Link
                 to="/services/research-and-analytics"
                 className="card-header-title is-centered"
               >
-                <h3 className="has-text-centered">
-                  <i className="card-header-icon bx bx-globe" /> Research and
-                  Analytics
-                </h3>
+                <h3 className="has-text-centered">Research and Analytics</h3>
               </Link>
             </div>
             <div className="card-content">
