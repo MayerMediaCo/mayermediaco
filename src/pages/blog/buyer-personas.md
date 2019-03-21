@@ -66,6 +66,6 @@ By creating these buyer personas you leverage key insights into your customers t
 
 They can be as simple or as complex as you feel they need to be, but ultimately your marketing campaigns will only improve by establishing these personas early on when developing your strategy, and utilizing them accordingly throughout.
 
-When writing content, developing or enhancing products, making business choices, and any other situation that you involve a client in, reference these.  Make them accessible, focus on these stories, emotions, and personalities, and most importantly, remember who you are appealing too when adressing a client facing choice.
+When writing content, developing or enhancing products, making business choices, and any other situation that you involve a client in, reference these.  Make them accessible, focus on these stories, emotions, and personalities, and most importantly, remember who you are appealing too when addressing a client facing choice.
 
 Have you tried implementing buyer personas into your brands marketing strategy? Reach out on social media or by email and share the results.
