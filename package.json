@@ -6,7 +6,7 @@
   "dependencies": {
     "boxicons": "^1.9.1",
     "bulma": "^0.7.4",
-    "gatsby": "^2.1.14",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^2.0.11",
     "gatsby-plugin-favicon": "^3.1.5",
     "gatsby-plugin-google-analytics": "^2.0.14",
@@ -14,10 +14,10 @@
     "gatsby-plugin-google-tagmanager": "^2.0.9",
     "gatsby-plugin-mailchimp": "^2.2.3",
     "gatsby-plugin-manifest": "^2.0.18",
-    "gatsby-plugin-netlify-cms": "^3.0.12",
+    "gatsby-plugin-netlify-cms": "^7.3.0",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.0-rc.1",
-    "gatsby-plugin-sass": "^2.0.10",
+    "gatsby-plugin-sass": "^6.3.1",
     "gatsby-plugin-sitemap": "^2.0.6",
     "gatsby-react-router-scroll": "^2.0.4",
     "gatsby-source-filesystem": "^2.0.21",
@@ -28,7 +28,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^13.2.0"
   },
   "keywords": [
     "gatsby"
@@ -48,7 +48,7 @@
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-config-wesbos": "0.0.15",
-    "eslint-loader": "^2.1.2",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-html": "^5.0.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
